@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
 import { useEffect } from 'react';
 import storage from 'local-storage';
-import { url } from '../url-api';
+import url from '../url-api';
 
 export function Login () {
 
@@ -38,7 +38,7 @@ async function Entrar() {
         senha: senha
     }
 
-    let r = await axios.post(url,pessoa)
+    let r = await url.post('/login', pessoa)
    storage('usuario-logado', r.data)
 
     setTimeout(() => {
