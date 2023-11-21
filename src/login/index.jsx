@@ -6,6 +6,7 @@ import LoadingBar from 'react-top-loading-bar'
 import { useEffect } from 'react';
 import storage from 'local-storage';
 import url from '../url-api';
+import { URLRota } from '../constants.js';
 
 export function Login () {
 
@@ -39,7 +40,8 @@ async function Entrar() {
     }
     
     console.log(pessoa)
-    let r = await axios.post('http://129.148.42.252:5042/login/', pessoa)
+    const urll = URLRota + 'login/'
+    let r = await axios.post(urll, pessoa)
    storage('usuario-logado', r.data)
     
    console.log(r);
