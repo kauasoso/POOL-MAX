@@ -114,7 +114,7 @@ root.render(
     <BrowserRouter>
     <Routes>
 
-    <Route path='/' element={<HomeLogin/>}/>
+    <Route path='/inicio' element={<HomeLogin/>}/>
 
     <Route path='/aspirador' element={<Aspirador/>}/>
     <Route path='/realizados' element={<Realizados/>}/>

@@ -37,15 +37,17 @@ async function Entrar() {
         email: email ,
         senha: senha
     }
-
-    let r = await url.post('/login', pessoa)
+    
+    console.log(pessoa)
+    let r = await axios.post('http://129.148.42.252:5042/login/', pessoa)
    storage('usuario-logado', r.data)
-
-    setTimeout(() => {
+    
+   console.log(r);
+   
+   setTimeout( () => {
         navigate('/home')
-        },2500)
-
-
+    }, 2500)
+ 
 
 }catch(err) {
     setCarregando(false)
