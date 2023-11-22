@@ -7,6 +7,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import LoadingBar from 'react-top-loading-bar';
 import storage from 'local-storage';
 import { useEffect } from 'react';
+import { URLRota } from '../constants.js';
 
 
 export default function Cadastro() {
@@ -32,8 +33,7 @@ export default function Cadastro() {
         setCarregando(true)
         try {
 
-
-            const url = `http://localhost:5001/cadastrocliente`;
+            const url = URLRota + `cadastrocliente`;
             const pessoa = {
                 nome: nome,
                 email: email,
