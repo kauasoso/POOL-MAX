@@ -19,11 +19,11 @@ const [erro, setErro] = useState([])
 const [carregando, setCarregando] = useState (false)
 
 
-useEffect(() =>{
-   if (storage('usuario-logado')) {
-    navigate('/home')
-   }
-},[])
+// useEffect(() =>{
+//    if (storage('usuario-logado')) {
+//     navigate('/home')
+//    }
+// },[])
 
 
 
@@ -78,10 +78,7 @@ return (
                 <div>
                 <img className='img-logo' src="../assets/image/logo.png" alt="" />
                 </div>
-                    <a href='/loginadm' className='adm-login' >
-                        <img src="../assets/image/admconfig.png" alt="" />
-                        <h3 >ADMINISTRADOR</h3>
-                    </a>
+                   
 
 
             </nav>
