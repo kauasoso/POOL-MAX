@@ -27,45 +27,45 @@ const [carregando, setCarregando] = useState (false)
 
 
 
-async function Entrar() {
+// async function Entrar() {
 
-   ref.current.continuousStart()
-   setCarregando(true)
+//    ref.current.continuousStart()
+//    setCarregando(true)
 
-    try{
+//     try{
 
-    let pessoa = {
-        email: email ,
-        senha: senha
-    }
+//     let pessoa = {
+//         email: email ,
+//         senha: senha
+//     }
     
-    console.log(pessoa)
-    const urll = URLRota + 'login/'
-    let r = await axios.post(urll, pessoa)
-   storage('usuario-logado', r.data)
+//     console.log(pessoa)
+//     const urll = URLRota + 'login/'
+//     let r = await axios.post(urll, pessoa)
+//    storage('usuario-logado', r.data)
     
-   console.log(r);
+//    console.log(r);
    
-   setTimeout( () => {
-        navigate('/home')
-    }, 2500)
+//    setTimeout( () => {
+//         navigate('/home')
+//     }, 2500)
  
 
-}catch(err) {
-    setCarregando(false)
-    ref.current.complete()
-    if(err.response.status === 404) {
-        setErro(err.response.data.erro)
-    }
-}
+// }catch(err) {
+//     setCarregando(false)
+//     ref.current.complete()
+//     if(err.response.status === 404) {
+//         setErro(err.response.data.erro)
+//     }
+// }
 
-}
+// }
 
-function verificarTecla(e){
-    if(e.key == 'Enter'){
-        Entrar()
-    }
-}
+// function verificarTecla(e){
+//     if(e.key == 'Enter'){
+//         Entrar()
+//     }
+// }
 
 
     

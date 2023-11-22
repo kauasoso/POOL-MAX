@@ -13,17 +13,17 @@ export default function HomeAdm() {
 
     let navigate = useNavigate()
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        if (!storage('adm-logado')) {
-            navigate('/loginadm')
-        } else {
-            const usuarioLogado = storage('adm-logado');
-            setUsuario(usuarioLogado)
-            console.log(usuarioLogado);
-        }
+    //     if (!storage('adm-logado')) {
+    //         navigate('/loginadm')
+    //     } else {
+    //         const usuarioLogado = storage('adm-logado');
+    //         setUsuario(usuarioLogado)
+    //         console.log(usuarioLogado);
+    //     }
 
-    }, [])
+    // }, [])
 
 
 

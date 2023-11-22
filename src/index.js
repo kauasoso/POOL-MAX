@@ -115,12 +115,16 @@ root.render(
     <Routes>
 
     <Route path='/inicio' element={<HomeLogin/>}/>
+    <Route path='/' element={<Home/>}/>
+   
+
+      
+
 
     <Route path='/aspirador' element={<Aspirador/>}/>
     <Route path='/realizados' element={<Realizados/>}/>
     <Route path='/meupedido' element={<Pedido/>}/>
 
-      <Route path='/' element={<Home/>}/>
       <Route path='/ace1' element={<Ace1/>}/>
       <Route path='/ace2' element={<Ace2/>}/>
       <Route path='/ace3' element={<Ace3/>}/>

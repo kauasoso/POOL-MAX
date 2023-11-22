@@ -22,7 +22,7 @@ export default function Cadastro() {
 
     useEffect(() =>{
         if (storage('usuario-logado')) {
-         navigate('/home')
+         navigate('/')
         }
         
      },[])
@@ -46,7 +46,7 @@ export default function Cadastro() {
             storage('usuario-logado', r.data)
 
             setTimeout(() => {
-                navigate('/home')
+                navigate('/')
                 },3000)
 
 
