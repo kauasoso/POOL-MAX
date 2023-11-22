@@ -34,7 +34,7 @@ export default function Aspiradores() {
 
                     <div className='abc'>
                         <img className='imagi' src="/assets/image/aspi-1.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                        <div className='line'> </div>
                         <p className='txt'>ASPIRADOR SANDSHARK</p>
 
 
@@ -47,7 +47,7 @@ export default function Aspiradores() {
                         </section>
                         <nav className='botao'>
 
-                        <a href="/asp1"><button>COMPRAR AGORA</button></a>
+                            <a href="/asp1"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -71,7 +71,7 @@ export default function Aspiradores() {
 
                         <nav className='botao'>
 
-                        <a href="/asp2"><button>COMPRAR AGORA</button></a>
+                            <a href="/asp2"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -96,7 +96,7 @@ export default function Aspiradores() {
 
                         <nav className='botao'>
 
-                        <a href="/asp3"><button>COMPRAR AGORA</button></a>
+                            <a href="/asp3"><button>COMPRAR AGORA</button></a>
 
                             <a href="/pedido">
                                 <img src="./assets/image/carropaypal.png" alt="" height={35} />
