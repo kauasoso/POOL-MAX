@@ -24,21 +24,16 @@ export default function Bordas() {
             <div className='tudo'>
                 <div className='centralizar'>
                     <h1 className='prd'>BORDAS</h1>
-
-                    <nav>
-                        <h3>Filtros :</h3>
-                        <select name="" id="filtro">
-                            <option>+FILTROS</option>
-                        </select>
-                    </nav>
+ 
                 </div>
 
                 <section className='divis'>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/bordas-1.png" alt="" />
-                        <div className='line'>ㅤ</div>
-
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/bordas-1.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>BORDA CERÂMICA GRANILHADA 216G</p>
 
                         <h1 className='preco'>R$ 287,13</h1>
@@ -50,18 +45,20 @@ export default function Bordas() {
 
                         </section>
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                                <a href="/borda1"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/borda1"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
                         </nav>            </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/bordas-2.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/bordas-2.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>BORDA CERÂMICA GRANILHADA 296G</p>
 
 
@@ -75,18 +72,20 @@ export default function Bordas() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/borda2"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/borda2"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
                         </nav>       </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/bordas-3.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/bordas-3.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>BORDA GRADARA</p>
 
                         <h1 className='preco'>R$ 202,99</h1>
@@ -97,13 +96,22 @@ export default function Bordas() {
                             <img className='caminhao' src="/assets/image/caminhao.png" alt="" />
 
                         </section>
+                        <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/borda3"> <button>COMPRAR AGORA</button></a>
 
-                        <a className='ahome' href="/borda3"><button>COMPRAR AGORA</button></a>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>
                     </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/bordas-4.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/bordas-4.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>BORDA PALLADIO</p>
 
 
@@ -115,18 +123,20 @@ export default function Bordas() {
 
                         </section>
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/borda4"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/borda4"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
                         </nav>       </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/bordas-5.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/bordas-5.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>CANTONEIRA EXTERNA AZUL CELESTE</p>
 
                         <h1 className='preco'>R$ 266,00</h1>
@@ -139,18 +149,20 @@ export default function Bordas() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/borda5"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/borda5"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>             </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>              </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/bordas-6.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/bordas-6.png" alt="" />
+                            <div className='line'></div>
+                        </div>
 
                         <p className='txt'>CANTONEIRA EXTERNA AZUL COBALTO</p>
 
@@ -164,12 +176,13 @@ export default function Bordas() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/borda6"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/borda6"> <button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
 
                         </nav>            </div>
 

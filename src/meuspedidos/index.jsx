@@ -27,7 +27,7 @@ export default function Pedido() {
                 </div>
 
                 <nav className='comprar'>
-                    <button>COMPRAR</button>
+                    <button> <a className='sem' href="/pagamento">COMPRAR</a> </button>
                 </nav>
 
             </div>

@@ -24,21 +24,16 @@ export default function Cascatas() {
             <div className='tudo'>
                 <div className='centralizar'>
                     <h1 className='prd'>CASCATS & DUCHAS</h1>
-
-                    <nav>
-                        <h3>Filtros :</h3>
-                        <select name="" id="filtro">
-                            <option>+FILTROS</option>
-                        </select>
-                    </nav>
+ 
                 </div>
 
                 <section className='divis'>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/casca-1.png" alt="" />
-                        <div className='line'>ㅤ</div>
-
+                    <div className='im'>
+                            <img className='imagi' src="/assets/image/casca-1.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>CASCATA EM AÇO INOX</p>
 
                         <h1 className='preco'>R$ 4.354,87</h1>
@@ -50,18 +45,20 @@ export default function Cascatas() {
 
                         </section>
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                                <a href="/cas1"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/cas1"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>            </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>              </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/casca-2.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                    <div className='im'>
+                            <img className='imagi' src="/assets/image/casca-2.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>CASCATA CISNE EM AÇO INOX</p>
 
 
@@ -75,18 +72,20 @@ export default function Cascatas() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                                <a href="/cas2"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/cas2"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>       </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>             </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/casca-3.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                    <div className='im'>
+                            <img className='imagi' src="/assets/image/casca-3.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>CASCATA IMPERIS  EM AÇO</p>
 
                         <h1 className='preco'>R$ 2.432,46</h1>
@@ -99,18 +98,20 @@ export default function Cascatas() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                                <a href="/cas3"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/cas3"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>          </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>              </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/casca-4.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                    <div className='im'>
+                            <img className='imagi' src="/assets/image/casca-4.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>DUCHA FRIA REDONDA DE ALUMÍNIO</p>
 
 
@@ -122,18 +123,20 @@ export default function Cascatas() {
 
                         </section>
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/cas4"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/cas4"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>       </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>           </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/casca-5.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                    <div className='im'>
+                            <img className='imagi' src="/assets/image/casca-5.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>DUCHA FRIA QUADRADA ALUMÍNIO</p>
 
                         <h1 className='preco'>R$ 5.110,42</h1>
@@ -146,18 +149,20 @@ export default function Cascatas() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/cas5"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/cas5"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>             </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>                   </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/casca-6.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                    <div className='im'>
+                            <img className='imagi' src="/assets/image/casca-6.png" alt="" />
+                            <div className='line'></div>
+                        </div>
 
                         <p className='txt'>DUCHA QUENTE QUADRADA</p>
 
@@ -171,14 +176,14 @@ export default function Cascatas() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/cas6"> <button>COMPRAR AGORA</button></a>
 
-                        <a href="/cas6"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>            </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>                   </div>
 
                 </section>
 

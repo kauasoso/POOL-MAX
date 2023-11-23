@@ -361,7 +361,16 @@
 
     }
 
-
+.sumido{
+    background-color: red;
+    color: #fff ;
+    margin-bottom: 120px;
+    
+    >h1{
+        font-size: 35px;  
+        color: #fff ;
+      }
+}
 
 
 
@@ -416,6 +425,22 @@
         display: none;
     }
 
+    .antes img{
+        width: 10px;
+        background-color: #000000;
+    }
+
+    .sumido{
+        background-color: red;
+        color: #fff ;
+        margin-bottom: 120px;
+        
+        >h1{
+            font-size: 35px;  
+            color: #fff ;
+          }
+    }
+
     .infos{
         display: none;
     }
@@ -466,6 +491,7 @@
 
     .grupo-image>img {
         cursor: pointer;
+        background-color: #fff;
     }
 }
 

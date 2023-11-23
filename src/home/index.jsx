@@ -189,12 +189,12 @@ export default function Home() {
                             </div>
 
                             <div className='enunciado'>
-                                    <h2>FILTROS</h2>
-                                </div>
+                                <h2>FILTROS</h2>
+                            </div>
 
-                    <div className='final-cruz'>
-                        <img src="./assets/image/cruz.png" alt="" />
-                    </div></a>
+                            <div className='final-cruz'>
+                                <img src="./assets/image/cruz.png" alt="" />
+                            </div></a>
                         </div>
 
                         {/* card-3 , 3fx , fim */}
@@ -209,7 +209,7 @@ export default function Home() {
 
 
                             <div className='enunciado'>
-                                <h2>AQUECIMENTO</h2>
+                                <h2>BOMBAS</h2>
                             </div>
 
                             <div className='final-cruz'>
@@ -284,8 +284,9 @@ export default function Home() {
 
                 <div className='subcontainer2'>
 
-                    <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
-
+                    <section className='sumido'>
+                        <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
+                    </section>
 
                     <div className='antes'>
                         <img className='servic' src="../assets/image/servic.png" alt="" />

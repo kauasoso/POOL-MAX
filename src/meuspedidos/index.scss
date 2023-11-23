@@ -20,8 +20,19 @@
       cursor: pointer;
       margin-right: 15px;
     }
+
+    button:hover{
+      box-shadow: 1px 1px 10px 1px;
+      color: #fff;
+      width: 174px;
+      transition: 0.5s;
+    }
   }
 
+  .sem{
+    color: #004586;
+    text-decoration: none;
+  }
   .containerPedido {
     display: flex;
     flex-direction: column;

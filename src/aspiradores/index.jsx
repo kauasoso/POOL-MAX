@@ -19,13 +19,6 @@ export default function Aspiradores() {
             <div className='tudo'>
                 <div className='centralizar'>
                     <h1 className='prd'>ASPIRADORES</h1>
-
-                    <nav>
-                        <h3>Filtros :</h3>
-                        <select name="" id="filtro">
-                            <option>+FILTROS</option>
-                        </select>
-                    </nav>
                 </div>
 
                 <section className='divis'>
@@ -33,8 +26,11 @@ export default function Aspiradores() {
 
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/aspi-1.png" alt="" />
-                        <div className='line'> </div>
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/aspi-1.png" alt="" />
+                            <div className='line'></div>
+                        </div>
+
                         <p className='txt'>ASPIRADOR SANDSHARK</p>
 
 
@@ -46,18 +42,20 @@ export default function Aspiradores() {
 
                         </section>
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                                <a href="/asp1"> <button>COMPRAR AGORA</button></a>
 
-                            <a href="/asp1"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>       </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>          </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/aspi-2.png" alt="" />
-                        <div className='line'>ㅤ</div>
+                        <div className='im'>
+                            <img className='imagi' src="/assets/image/aspi-2.png" alt="" />
+                            <div className='line'></div>
+                        </div>
                         <p className='txt'>ROBÔ DOLPHIN XT5</p>
 
                         <h1 className='preco'>R$ 4987,00</h1>
@@ -70,19 +68,20 @@ export default function Aspiradores() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/asp2"> <button>COMPRAR AGORA</button></a>
 
-                            <a href="/asp2"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>             </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>               </div>
 
                     <div className='abc'>
-                        <img className='imagi' src="/assets/image/aspi-3.png" alt="" />
-                        <div className='line'>ㅤ</div>
-
+                    <div className='im'>
+                                        <img className='imagi' src="/assets/image/aspi-3.png" alt="" />
+                                        <div className='line'></div>
+                                    </div>
                         <p className='txt'>AQUECEDOR A GÁS HTR400</p>
 
                         <h1 className='preco'>R$ 3490,00</h1>
@@ -95,14 +94,14 @@ export default function Aspiradores() {
                         </section>
 
                         <nav className='botao'>
+                            <div className='sem-margin'>
+                            <a href="/asp3"> <button>COMPRAR AGORA</button></a>
 
-                            <a href="/asp3"><button>COMPRAR AGORA</button></a>
-
-                            <a href="/pedido">
-                                <img src="./assets/image/carropaypal.png" alt="" height={35} />
-                            </a>
-
-                        </nav>            </div>
+                                <a href="/pedido">
+                                    <img src="./assets/image/carropaypal.png" alt="" height={35} />
+                                </a>
+                            </div>
+                        </nav>               </div>
 
                 </section>
 
