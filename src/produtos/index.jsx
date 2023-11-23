@@ -52,7 +52,7 @@ export default function Produto() {
 
                                 <nav className='botao'>
 
-                                <a href="/filtro1"><button>COMPRAR AGORA</button></a>
+                                    <a href="/filtro1"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -79,7 +79,7 @@ export default function Produto() {
 
                                 <nav className='botao'>
 
-                                <a href="/filtro2"><button>COMPRAR AGORA</button></a>
+                                    <a href="/filtro2"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -103,7 +103,7 @@ export default function Produto() {
 
                                 <nav className='botao'>
 
-                                <a href="/filtro3"><button>COMPRAR AGORA</button></a>
+                                    <a href="/filtro3"><button>COMPRAR AGORA</button></a>
 
                                     <a href="/pedido">
                                         <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -144,7 +144,7 @@ export default function Produto() {
 
                                     <nav className='botao'>
 
-                                    <a href="/filtro4"><button>COMPRAR AGORA</button></a>
+                                        <a href="/filtro4"><button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -168,7 +168,7 @@ export default function Produto() {
 
                                     <nav className='botao'>
 
-                                    <a href="/filtro5"> <button>COMPRAR AGORA</button></a>
+                                        <a href="/filtro5"> <button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -193,7 +193,7 @@ export default function Produto() {
 
                                     <nav className='botao'>
 
-                                    <a href="/filtro6"> <button>COMPRAR AGORA</button></a>
+                                        <a href="/filtro6"> <button>COMPRAR AGORA</button></a>
 
                                         <a href="/pedido">
                                             <img src="./assets/image/carropaypal.png" alt="" height={35} />
@@ -205,16 +205,16 @@ export default function Produto() {
                         </section>
                     </div>
 
-<div>
-                        <Rodape/>
+                    <div>
+
                     </div>
                     {/* final divis */} </section>
 
 
             </div>
-                    
 
 
+                        <Rodape />
         </div>
     )
 }
