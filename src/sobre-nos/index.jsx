@@ -45,7 +45,8 @@ export default function Sobrenos() {
 
             </div>
 
-            <Rodape />
+            <div className='espaço'></div>
+
         </div>
     )
 }

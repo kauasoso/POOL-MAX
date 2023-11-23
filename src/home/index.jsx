@@ -2,6 +2,7 @@ import Cabecalho from '../cabecalho';
 import Card from '../card';
 import './index.scss';
 import Rodape from '../rodape';
+import CabecalhoInicial from '../cabecalho.inicial';
 
 
 
@@ -284,9 +285,9 @@ export default function Home() {
 
                 <div className='subcontainer2'>
 
-                    <section className='sumido'>
                         <h1>UM POUCO DE NOSSOS SERVIÇOS !</h1>
-                    </section>
+
+                        <h1 className='some'>UM POUCO DE NOSSOS SERVIÇOS !</h1>
 
                     <div className='antes'>
                         <img className='servic' src="../assets/image/servic.png" alt="" />
