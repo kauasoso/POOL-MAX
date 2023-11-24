@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import storage from 'local-storage';
 import { useEffect } from 'react';
 import { confirmAlert } from 'react-confirm-alert'; 
+import { URLRota } from '../../constants';
 
 
 
@@ -57,7 +58,7 @@ let navigate = useNavigate()
     try {
         
     
-        let url = `http://localhost:5001/cadastroproduto`
+        let url = URLRota + 'cadastroproduto'
 
         const produto = {
             nome: nome ,
@@ -93,12 +94,19 @@ ConsultarProduto()
 //////////////////////////////////////////////////////
 
     async function ConsultarProduto() {
-
-        let url = `http://localhost:5001/buscarporcategoria/${buscar}`
+        if (!buscar) {
+            let url = `${URLRota}buscarporcategoria/${categoria}`
       
         let r = await axios.get(url)
       
         setLista(r.data)
+        } else {
+            let url = `${URLRota}buscarporcategoria/${buscar}`
+      
+            let r = await axios.get(url)
+          
+            setLista(r.data)
+        }
        }
 ////////////////////////////////////////////////////////////
 
@@ -107,7 +115,6 @@ ConsultarProduto()
 ////////////////////////////////////////////////////////////
 
 async function DeletarProduto(id , nome) {
- 
     confirmAlert(
         {
             title: 'Remover Produto ?',
@@ -117,7 +124,8 @@ async function DeletarProduto(id , nome) {
                     label:'Sim',
                     onClick: async () => {
 
-                        let url = `http://localhost:5001/produto/${id}`
+                        let url = `${URLRota}produto/${id}`
+                        console.log(url)
 
                         let r = await axios.delete(url)
 
@@ -137,17 +145,19 @@ async function DeletarProduto(id , nome) {
 /////////////////////////////////////
 
 async function ChamarProduto (item) {
-    setAtivado(false)
-   
 
-setIdd(item.id_produto)    
-setNome(item.nome)
-setCategoria(item.categoria)
-setValor(item.preco)
-setQuantidade(item.quantidade)
-setImagem(item.imagem)
 
-ConsultarProduto()
+        setAtivado(false)
+        
+
+        setIdd(item.id_produto)    
+        setNome(item.nome)
+        setCategoria(item.categoria)
+        setValor(item.preco)
+        setQuantidade(item.quantidade)
+        setImagem(item.imagem)
+
+        ConsultarProduto()
 
 }
 
@@ -156,7 +166,7 @@ async function AlterarProduto () {
 
    
 
-    let url = `http://localhost:5001/alterarProduto/${idd}`
+    let url = `${URLRota}alterarProduto/${idd}`
 
     const produtoo = {
         produto: nome ,

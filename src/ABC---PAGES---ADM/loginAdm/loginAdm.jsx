@@ -1,3 +1,4 @@
+import {URLRota} from '../../constants.js'
 import { useState , useRef } from 'react';
 import LoadingBar from 'react-top-loading-bar'
 import './index.scss';
@@ -37,7 +38,7 @@ async function TelaAdm() {
     setCarregando(true)
  
      try{
-     let url = 'http://localhost:5001/adm';
+     let url = URLRota + 'adm';
  
      let pessoa = {
          email: email ,
