@@ -27,7 +27,7 @@ export default function Aque6() {
 
                 <div className='b2'>
                     <h3 className='titulo'>PLACA SOLAR GIRASSOL G1</h3>
-                    <h5 className='descricao'>A Placa Solar Girassol G1 é um coletor solar desenvolvido pela empresa Girassol para aquecimento de piscinas residenciais. É fabricada com um novo polímero de alta performance (PAP), que garante alta eficiência e durabilidade.</h5>
+                    <h5 className='descricao'>A Placa Solar Girassol G1 é um coletor solar desenvolvido pela empresa Girassol para aquecimento de piscinas residenciais. É fabricada com um novo polímero de alta performance (PAP), que garante alta eficiência e durabilidade</h5>
 
                     <h2 className='preco'>R$ 668,33</h2>
 
